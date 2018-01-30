@@ -7,7 +7,7 @@ package decorator.main;
 
 public class Mozzarella extends AToppingDecorator {
 
-	public Mozzarella(IPizza newPizza) {
+	public Mozzarella(IPizza newPizza, int x) {
 		super(newPizza);
 
 		System.out.println("Adding Dough.");
