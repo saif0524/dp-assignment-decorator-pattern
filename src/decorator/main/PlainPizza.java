@@ -7,12 +7,19 @@ package decorator.main;
 
 public class PlainPizza implements IPizza {
 
+	String descritption;
+	double cost;
 	public String getDescription() {
 		return "Thin Dough";
 	}
 
 	public double getCost() {
 		return 4.00;
+	}
+	
+	PlainPizza(){
+		descritption = "Not Spectified";
+		cost = 0.00;
 	}
 
 }
