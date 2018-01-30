@@ -9,6 +9,7 @@ public class PlainPizza implements IPizza {
 
 	String descritption;
 	double cost;
+	
 	public String getDescription() {
 		return "Thin Dough";
 	}
@@ -17,9 +18,10 @@ public class PlainPizza implements IPizza {
 		return 4.00;
 	}
 	
-	PlainPizza(){
-		descritption = "Not Spectified";
-		cost = 0.00;
+	PlainPizza(String description, double cost){
+		this.descritption = description;
+		this.cost = cost;
 	}
+	
 
 }

@@ -9,14 +9,14 @@ public class PizzaMakerMain {
 
 	public static void main(String[] args) {
 
-		IPizza basicPizza = new TomatoSauce(new Mozzarella(new PlainPizza(), 0));
+		IPizza basicPizza = new TomatoSauce(new Mozzarella(new PlainPizza("", 0.0), 0));
 
 		System.out.println("Ingredients: " + basicPizza.getDescription());
 
 		System.out.println("Price: " + basicPizza.getCost());
 		
 		
-		IPizza basicPizza1 = new TomatoSauce((new PlainPizza()));
+		IPizza basicPizza1 = new TomatoSauce((new PlainPizza("", 0.0)));
 
 		System.out.println("Ingredients: " + basicPizza1.getDescription());
 
