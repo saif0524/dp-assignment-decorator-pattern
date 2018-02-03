@@ -24,7 +24,7 @@ public class PlainPizza implements IPizza {
 	}
 	
 	
-	public void tesPlain(String x) {
+	public void tesPlain(String x, int y, IPizza pizza) {
 		System.out.println("test plain");
 	}
 	
