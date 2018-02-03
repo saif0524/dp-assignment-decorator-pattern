@@ -20,4 +20,8 @@ public class TomatoSauce extends AToppingDecorator {
 	public double getCost() {
 		return tempPizza.getCost() + .35;
 	}
+	
+	public static void test() {
+		System.out.println("test");
+	}
 }
