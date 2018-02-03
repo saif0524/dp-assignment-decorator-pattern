@@ -23,5 +23,10 @@ public class PlainPizza implements IPizza {
 		this.cost = cost;
 	}
 	
+	
+	public void tesPlain(String x) {
+		System.out.println("test plain");
+	}
+	
 
 }
